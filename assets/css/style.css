@@ -1,0 +1,130 @@
+@font-face {
+    font-family: Frede-Medium;
+    src: url("../fonts/FrederickatheGreat-Regular.ttf");
+}
+
+@font-face {
+    font-family: OpenSans-Medium;
+    src: url("../fonts/OpenSans-Medium.ttf");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: openSans-Medium;
+}
+
+header {
+    background-image: url("../img/Lev3_2_css-einführung_box-model_img.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+section {
+    text-align: center;
+}
+
+.section_header {
+
+    width: 260px;
+    margin: 200px auto;
+}
+
+#h2_jungles {
+    margin-bottom: 10px;
+}
+
+header a:hover,
+footer a:hover {
+    color: black;
+    background-color: white;
+}
+
+main a:hover {
+    color: white;
+    background-color: black;
+}
+
+header section a {
+    display: inline-block;
+    text-decoration: none;
+    border: 2px solid white;
+    padding: 5px 15px;
+    margin-top: 10px;
+    background-color: rgba(rgb(0, 0, 0), rgb(0, 0, 0), rgb(0, 0, 0), 0.5)
+}
+
+header h1 {
+    font-family: Frede-Medium;
+    margin-left: 145px;
+    padding-top: 5px;
+}
+
+nav {
+    text-align: right;
+    margin-top: 230px;
+    margin-right: 100px;
+}
+
+nav ul li a {
+    text-decoration: none;
+}
+
+main section h2 {
+    margin: 50px 0px 40px 0px;
+    color: black;
+}
+
+main section p {
+    margin: 30px 250px;
+    color: black;
+}
+
+main section a {
+    display: inline-block;
+    width: 122px;
+    margin: 0px 400px 50px 400px;
+    line-height: 1.5;
+    text-decoration: none;
+    color: black;
+    border: 2px solid black;
+    padding: 10px;
+
+
+}
+
+footer {
+    background-color: rgb(41, 52, 70);
+    padding: 0px 40px 20px 0px;
+}
+
+footer p {
+    padding-top: 30px;
+    padding-left: 15px;
+    margin-right: 500px;
+    width: 600px;
+}
+
+#a_findUs {
+    display: inline-block;
+    margin: 15px;
+    text-decoration: none;
+    border: 2px solid rgb(255, 255, 255);
+    padding: 5px 15px;
+}
+
+footer ul li {
+    display: inline-block;
+}
+
+footer ul li a {
+    text-decoration: none;
+}
+
+footer ul {
+    word-spacing: 20px;
+    text-align: right;
+}
